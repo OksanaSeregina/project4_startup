@@ -1,0 +1,234 @@
+/*RESET.CSS*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*END RESET.CSS*/
+
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Header */
+
+.navbar-light .container-fluid .navbar-brand img{
+	width: 50px;
+	height: 50px;
+}
+
+.navbar-light .navbar-nav .nav-link{
+	text-transform: uppercase;
+}
+
+/* Carousel */
+
+.my-carousel{
+	padding: 0;
+}
+
+.my-carousel .carousel-item{
+	max-height: 600px;
+}
+
+/* Container 2_column */
+
+.container .row .col-lg-6{
+	font-size: 22px;
+    line-height: 28px;
+	text-align: justify;
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+/* Container Card */
+
+.container__card .row .col-lg-4{
+	margin-bottom: 20px;
+}
+
+.card__img a{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 200px;
+	padding: 20px;
+}
+
+.card__img img{
+	max-width: 100%;
+	max-height: 100%;
+}
+
+.card-body{
+	padding: 20px;
+}
+
+.card-body h4{
+	font-size: 24px;
+	font-weight: bold;
+}
+
+.card-body p{
+	font-size: 18px;
+	line-height: 25px;
+	color: #999999;
+	height: 100px;
+	overflow: hidden;
+}
+
+.card-body a{
+	text-decoration: none;
+	background-color: #e3f2fd;
+	color:#212529;
+	font-size: 18px;
+	font-weight: 600;
+	padding: 20px;
+	margin-top: 30px;
+	display: inline-block;
+}
+
+/* Container Text Img */
+
+.text__img{
+	margin-top: 20px;
+	margin-bottom: 40px;
+}
+
+.text__img .clearfix p{
+	font-size: 22px;
+    line-height: 28px;
+}
+
+/* Container Block Collapse */
+
+.block__collapse .row .btn{
+	background-color: #e3f2fd;
+	color:#212529;
+	font-size: 18px;
+	font-weight: 600;
+	padding: 20px;
+	margin-top: 30px;
+	display: inline-block;
+}
+
+.block__collapse .row .col-md-6 .collapse .card{
+	font-size: 18px;
+	line-height: 25px;
+    margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+/* Container Review Block */
+
+.review__block{
+	border: 1px solid rgba(0,0,0,.125);
+	padding: 20px;
+	margin-top: 40px;
+	margin-bottom: 20px;
+}
+
+.review__block h2{
+	font-size: 32px;
+	line-height: 48px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.form-label{
+	font-size: 24px;
+	line-height: 36px;
+	font-weight: 500;
+}
+
+.mb-3{
+	margin-top: 40px;
+}
+
+.send .btn{
+	background-color: #e3f2fd;
+	color:#212529;
+	font-size: 18px;
+	font-weight: 600;
+	padding: 20px;
+	margin-top: 30px;
+	width: 200px;
+	display: inline-block;
+} 
+
+/* Footer */
+
+footer{
+	background-color: #e3f2fd;
+}
+
+footer h4{
+	text-transform: uppercase;
+	font-size: 16px;
+	font-weight: bold;
+	padding-top: 40px;
+	padding-bottom: 10px;
+}
+
+footer a{
+	text-decoration: none;
+}
+
+footer a, footer li{
+	color: #212529;
+	font-size: 15px;
+	line-height: 24px;
+}
+
+.footer__icons a{
+	display: inline-block;
+	margin-right: 15px;
+}
+
+footer ul{
+	margin-bottom: 40px;
+}
+
+
+
